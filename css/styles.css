@@ -1,3 +1,103 @@
 body{
-    font:"arial";
+    font-family: Rubik; 
+    color: #374754;
+    padding-top: 33px;
+}
+
+h1{
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 500; 
+    font-size: 50px;
+    color:#252B42;
+}
+
+h3{
+    max-width:800px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+button{  
+    background: #5271FF;
+    color: white;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#motto{
+    line-height: 70px;
+    padding-top: 41px;
+    padding-bottom: 27px;
+}
+
+#motto h1, #motto h1 {
+    color: #0B132A;
+    font-size: 64px;
+}
+
+#logo{
+    display: flex;
+
+}
+#logo-text{
+    color: #0B132A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo-text h1, #logo-text h2{
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+.benefit-container {
+    height:165px;
+}
+
+.benefit-img{
+    width: 198px;
+    height: auto;
+}
+
+#benefits h2{
+    font-size: 24px;
+}
+
+#benefits  h3{
+    line-height: 25px;
+    max-width: 200px;
+    font-size: 18px;
+}
+
+#landing button{
+    width: 230px;
+    height: 60px;
+}
+
+#main-img{
+    width: 700px;
+    height: auto;
+}
+
+@media(max-width:1200px){
+    #main-img{
+        align-self: center;
+        max-width: 450px;
+        height: auto;
+    }
 }
