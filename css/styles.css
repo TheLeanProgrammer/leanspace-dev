@@ -101,3 +101,70 @@ button{
         height: auto;
     }
 }
+
+#contact {
+    max-width: 1073px;
+}
+
+.form-control{
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    margin-top: 30px;
+    border-radius: 47px;
+}
+
+#messageEntry{
+    border-radius: 8px;
+    resize: none;
+}
+
+#submit-btn{
+    background: #2091F9;
+    border-radius: 35px;
+    color: white;
+    width: 105px;
+    height: 46px;
+    box-shadow: none;
+}
+
+
+.form-control::placeholder{
+    color: #000000;
+}
+
+#asset-pixels{
+    position: relative;
+    bottom:-100px;
+    left:100px;
+    z-index:2;
+}
+
+#newsletter{
+    z-index:3;
+    max-width: 1170px;
+    min-height: 100px;      
+    background: linear-gradient(90.06deg, #30D7BA 0.05%, #03ABF3 35.43%, #458FF6 99.94%);
+    border-radius: 8px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+#nlEmail{
+    background-color: transparent;
+    border-width: 2px;
+    max-width: 500px;
+}
+
+#nlEmail::placeholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #EBEBEB;
+}
