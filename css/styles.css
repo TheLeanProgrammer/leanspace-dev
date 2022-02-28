@@ -98,22 +98,25 @@ button{
     height: 60px;
 }
 
-#main-img{
-    width: 700px;
-    height: auto;
+@media(min-width:1400px){
+    #main-img{
+        width: 700px;
+        height: auto;
+    }
 }
 
-@media(max-width:1200px){
+
+
+@media(max-width:1400px){
     #main-img-container{
         text-align: center;
     }
     #main-img{
         /* margin-left: auto;
         margin-right: auto; */
-        display: inline-block;
         /* align-self: center; */
         /* max-width: 400px; */
-        max-width:70vw;
+        max-width: 100%;
         height: auto;
     }
 }
