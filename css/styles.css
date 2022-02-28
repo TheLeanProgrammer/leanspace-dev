@@ -31,7 +31,7 @@ p{
 button{  
     background: #5271FF;
     color: white;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -46,6 +46,15 @@ button{
 #motto h1, #motto h1 {
     color: #0B132A;
     font-size: 64px;
+}
+
+@media(max-width:800px){
+    #motto{
+        text-align: center;
+    }
+    #main-para{
+        text-align:center;
+    }
 }
 
 #logo{
@@ -95,9 +104,16 @@ button{
 }
 
 @media(max-width:1200px){
+    #main-img-container{
+        text-align: center;
+    }
     #main-img{
-        align-self: center;
-        max-width: 450px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        display: inline-block;
+        /* align-self: center; */
+        /* max-width: 400px; */
+        max-width:70vw;
         height: auto;
     }
 }
@@ -132,11 +148,16 @@ button{
     color: #000000;
 }
 
-#asset-pixels{
+#asset-div{
     position: relative;
-    bottom:-100px;
-    left:100px;
-    z-index:2;
+    z-index:1; 
+}
+#asset-pixels{
+    position: absolute;
+    align-self: center;
+    bottom:30%;
+    left:8%;
+    
 }
 
 #newsletter{
@@ -167,4 +188,8 @@ button{
     font-size: 18px;
     line-height: 21px;
     color: #EBEBEB;
+}
+
+#follow{
+    background-color: #F1F3F6;
 }
