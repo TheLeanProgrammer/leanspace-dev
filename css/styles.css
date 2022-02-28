@@ -155,17 +155,17 @@ button{
     position: relative;
     z-index:1; 
 }
+
 #asset-pixels{
     position: absolute;
     align-self: center;
-    bottom:30%;
-    left:8%;
-    
+    top: -38px;
+    left: -38px;
+    z-index: -10;
 }
 
 #newsletter{
     z-index:3;
-    max-width: 1170px;
     min-height: 100px;      
     background: linear-gradient(90.06deg, #30D7BA 0.05%, #03ABF3 35.43%, #458FF6 99.94%);
     border-radius: 8px;
